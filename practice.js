@@ -109,12 +109,17 @@ function nameCheck(name){
 // that will be numbers.
 // The add function should return the two parameters added together
 
-//Code Here
+
+function add(num1, num2){
+  return num1 + num2
+}
+num1 = 3
+num2 = 4
 
 //Now invoke add, passing in the numbers 3 and 4
 //storing the result in the variable mathSum.
 
-//Code Here
+mathSum = num1 + num2
 
 //////////////////PROBLEM 12////////////////////
 
@@ -125,7 +130,20 @@ function nameCheck(name){
 // If the passed in color equals 'black', return 'so trendy'
 // Otherwise, you should return the string 'you need to evaluate your favorite color choice'
 
-// Code here
+function faveColorFinder(color){
+  if (color === 'red'){
+    return 'red is a great color'
+  }
+  if (color === 'green'){
+    return 'green is a solid favorite color'
+  }
+  if (color === 'black'){
+    return 'so trendy'
+  } else {
+    return 'you need to evaluate your favorite color choice'
+  }
+}
+
 
 //////////////////PROBLEM 13////////////////////
 
