@@ -2,19 +2,19 @@
 
 //Create a variable called myName that is a string data type
 
-let myName = 'Mimi'
+let myName = "Mimi":
 
 //////////////////PROBLEM 2////////////////////
 
 //Create a variable called myAge that is a number data type
 
-let myAge = 37
+let myAge = 37;
 
 //////////////////PROBLEM 3////////////////////
 
 //Create a variable called lovesCode that is a boolean data type
 
-let lovesCode = false
+let lovesCode = true;
 
 //////////////////PROBLEM 4////////////////////
 
@@ -36,10 +36,8 @@ let devMountainGoal = null
 //plus the value of the name parameter.
 
 //Code here
-function greeting(name){
-
-  return ("Hello, "+name)
-
+function greeting(name) {
+  return ("Hell0, " + name)
 }
 
 
@@ -49,8 +47,8 @@ function greeting(name){
 //Name it newGreeting.
 
 //Code Here
-let newGreeting = function(name){
-  return "Hello, "+name
+let newGreeting = function greeting(name) {
+  return ("Hello" + name)
 }
 
 
@@ -59,7 +57,7 @@ let newGreeting = function(name){
 //Create an array called groceries with the values
 //"apples", "milk", "eggs", "bread"
 
-  let groceries = ["apples", "milk", "eggs", "bread"]
+  let groceries = ["apples", "milk", "eggs", "bread"];
 
 
 //////////////////PROBLEM 9////////////////////
@@ -70,9 +68,9 @@ let newGreeting = function(name){
 //and goodBoy (a boolean).
 
 let dog = {
-  name: "Buddy",
-  color: "black",
-  age: 8,
+  name: "Oliver",
+  color: "Fawn",
+  age: 6,
   goodBoy: true
 }
 
@@ -90,14 +88,14 @@ let devMountainClassPet = dog.name
 // If the name parameter is anything else, return 'Cool name, NAMEPARAM'
 // with NAMEPARAM being the name parameter being passed in
 
-let name = 'Steven'
-function nameCheck(name){
-  if (name === 'Steven'){
-    return 'What is up Steven?'
-  } if (name === 'Bryan'){
-    return 'Hey Bryan!'
+let name = "Steven"
+function nameCheck(name) {
+  if (name === "Steven") {
+    return "What is up Steven?";
+  } if (name === "Bryan") {
+    return "Hey Bryan!"
   } else {
-    return 'Cool name, Joe'
+   return "Cool name, NAMEPARAM";
   }
 }
 
@@ -110,16 +108,16 @@ function nameCheck(name){
 // The add function should return the two parameters added together
 
 
-function add(num1, num2){
-  return num1 + num2
+param1 = 3
+param2 = 4
+function add (param1, param2) {
+  return param1 + param2;
 }
-num1 = 3
-num2 = 4
 
 //Now invoke add, passing in the numbers 3 and 4
 //storing the result in the variable mathSum.
 
-mathSum = num1 + num2
+mathSum = add 
 
 //////////////////PROBLEM 12////////////////////
 
