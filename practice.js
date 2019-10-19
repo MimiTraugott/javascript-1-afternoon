@@ -48,7 +48,7 @@ function greeting(name) {
 
 //Code Here
 let newGreeting = function greeting(name) {
-  return ("Hello" + name)
+  return ("Hello " + name)
 }
 
 
@@ -92,10 +92,10 @@ let name = "Steven"
 function nameCheck(name) {
   if (name === "Steven") {
     return "What is up Steven?";
-  } if (name === "Bryan") {
+  } else if (name === "Bryan") {
     return "Hey Bryan!"
   } else {
-   return "Cool name, NAMEPARAM";
+   return "Cool name, " + name;
   }
 }
 
@@ -117,7 +117,7 @@ function add (param1, param2) {
 //Now invoke add, passing in the numbers 3 and 4
 //storing the result in the variable mathSum.
 
-mathSum = add 
+mathSum = add(3,4)
 
 //////////////////PROBLEM 12////////////////////
 
@@ -165,16 +165,16 @@ function pond() {
 //as strings.
 
 //This array should contain the variable names (as strings) accessible in the global scope.
-let globalScope = ["duck", "realDuck"];
+let globalScope = ["duck"];
 
 //This array should contain the variable names (as strings) accessible in the bathroom function.
-let bathroomScope = ["duck", "rubberDuck"];
+let bathroomScope = ["sailorDuck", "rubberDuck"];
 
 //This array should contain the variable names (as strings) accessible in the bathtub function.
-let bathtubScope = ["duck", "rubberDuck", "sailorDuck"];
+let bathtubScope = ["sailorDuck"];
 
 //This array should contain the variable names (as strings) accessible in the pond function.
-let pondScope = ["duck", "realDuck"];
+let pondScope = ["realDuck"];
 
 //////////////////PROBLEM 14////////////////////
 
@@ -185,7 +185,7 @@ let age = 37
 // FLASH FORWARD TO NEXT YEAR
 // reassign the value of age to be one greater than it was, because, we all get older
 
-age = 38
+age = 37 + 1
 
 // Good news! We can live forever. Set your age to 999
 
